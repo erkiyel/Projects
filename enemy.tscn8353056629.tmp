@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://d1fuj46kitsn7"]
+
+[ext_resource type="Script" uid="uid://btlydgjjbx1hu" path="res://enemy_follow.gd" id="1_4gyqm"]
+[ext_resource type="Texture2D" uid="uid://cmy5yot1g4y6q" path="res://background/Enemy Dragon.png" id="1_7k104"]
+
+[node name="Enemy" type="Node2D"]
+script = ExtResource("1_4gyqm")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_7k104")
+flip_h = true
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PackedVector2Array(-51, -2, -63, 11, -81, 27, -79, 35, -66, 35, -57, 32, -47, 40, -66, 50, -69, 57, -60, 65, -50, 65, -35, 60, -27, 51, -12, 47, 6, 51, -2, 57, 3, 61, 14, 63, 26, 60, 30, 50, 42, 44, 60, 37, 56, 12, 60, 4, 54, 3, 46, 11, 47, 24, 41, 9, 41, -7, 16, -7)
