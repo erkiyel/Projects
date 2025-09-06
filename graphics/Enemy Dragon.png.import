@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cmy5yot1g4y6q"
-path="res://.godot/imported/Enemy Dragon.png-5035370d682f4b6bbd945b1f9dc2fc32.ctex"
+path="res://.godot/imported/Enemy Dragon.png-a16443418dd0b74d3d6a9a1486ffe020.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://background/Enemy Dragon.png"
-dest_files=["res://.godot/imported/Enemy Dragon.png-5035370d682f4b6bbd945b1f9dc2fc32.ctex"]
+source_file="res://graphics/Enemy Dragon.png"
+dest_files=["res://.godot/imported/Enemy Dragon.png-a16443418dd0b74d3d6a9a1486ffe020.ctex"]
 
 [params]
 
